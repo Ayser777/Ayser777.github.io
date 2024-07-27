@@ -1,0 +1,466 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/headerimg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header a {
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header a span {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+header .left {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 60px;
+  left: 0;
+  height: 100%;
+}
+header .top {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+}
+header .top a {
+  text-align: center;
+  letter-spacing: 10px;
+}
+header .right {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+}
+header .right span {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+header .bottom {
+  position: absolute;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+header .bottom a {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.about {
+  background-color: black;
+  padding: 80px;
+}
+.about h1 {
+  color: white;
+}
+.about .div1 {
+  position: relative;
+}
+.about .div1 p {
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: -100px;
+}
+.about .div1 .leftspan {
+  position: absolute;
+  width: 110px;
+  height: 1px;
+  left: 0;
+  top: 13px;
+  background-color: white;
+}
+.about p {
+  color: rgb(194, 194, 193);
+}
+.about button {
+  padding: 15px 30px;
+  background-color: #f6483b;
+  color: white;
+  border: 1px solid #f6483b;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.about button:hover {
+  background-color: #111111;
+  color: #f6483b;
+}
+.about .row2 h1 {
+  text-align: center;
+}
+.about .row2 .div2 {
+  position: relative;
+}
+.about .row2 .div2 p {
+  text-align: center;
+  color: red;
+  position: relative;
+  top: 0;
+  left: 75px;
+}
+.about .row2 .div2 .leftspan1 {
+  position: absolute;
+  width: 135px;
+  height: 1px;
+  left: 42%;
+  top: 13px;
+  background-color: white;
+}
+.about .col1 {
+  padding: 10% 20px;
+}
+.about .col1 h4 {
+  color: white;
+  font-size: 20px;
+  text-align: right !important;
+}
+.about .col1 span {
+  text-align: right !important;
+  color: white;
+  font-weight: bold;
+}
+.about .col1 p {
+  text-align: right !important;
+}
+.about .borderDiv {
+  position: relative;
+  width: 1px;
+  background-color: rgb(45, 45, 45);
+  height: 600px;
+  padding: 0 !important;
+}
+.about .borderDiv .spanShrjan {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  padding: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.about .borderDiv .spanShrjan:hover {
+  border: 2px solid #f6483b;
+  background-color: white;
+}
+.about .borderDiv .sp1 {
+  left: -5px;
+  top: 15%;
+}
+.about .borderDiv .sp2 {
+  left: -5px;
+  top: 28%;
+}
+.about .borderDiv .sp3 {
+  left: -5px;
+  top: 47%;
+}
+.about .borderDiv .sp4 {
+  left: -5px;
+  top: 63%;
+}
+.about .col2 {
+  padding: 0 40px;
+}
+.about .col2 h4 {
+  color: white;
+  font-size: 20px;
+}
+.about .col2 span {
+  text-align: right !important;
+  color: white;
+}
+.about h3 {
+  font-size: 70px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.about h3:hover {
+  color: #f6483b;
+}
+.about .colbg {
+  background-color: #111111;
+  padding: 40px 50x;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.about .colbg:hover {
+  background-color: #515151;
+}
+.about .div5 {
+  position: relative;
+}
+.about .div5 p {
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 4%;
+}
+.about .div5 .leftspan5 {
+  position: absolute;
+  width: 98px;
+  height: 1px;
+  left: 42%;
+  top: 13px;
+  background-color: white;
+}
+
+.contact {
+  background-color: black;
+  padding: 80px;
+}
+.contact h1 {
+  color: white;
+  text-align: center;
+}
+.contact .div3 {
+  position: relative;
+}
+.contact .div3 p {
+  color: red;
+  text-align: center;
+  position: relative;
+  left: 82px;
+}
+.contact .div3 .leftspan2 {
+  position: absolute;
+  width: 140px;
+  height: 1px;
+  left: 41%;
+  top: 12px;
+  background-color: white;
+}
+.contact form h2 {
+  color: white;
+}
+.contact form .input-group input {
+  border: 0;
+  border-radius: 0;
+  background-color: #111111;
+  margin: 10px;
+  height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact form .input-group input::-webkit-input-placeholder {
+  color: rgb(118, 118, 118);
+}
+.contact form .input-group input::-moz-placeholder {
+  color: rgb(118, 118, 118);
+}
+.contact form .input-group input:-ms-input-placeholder {
+  color: rgb(118, 118, 118);
+}
+.contact form .input-group input::-ms-input-placeholder {
+  color: rgb(118, 118, 118);
+}
+.contact form .input-group input::placeholder {
+  color: rgb(118, 118, 118);
+}
+.contact form .input-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.contact form .input-group input:hover {
+  background-color: rgba(128, 128, 128, 0.463);
+}
+.contact form .input-group textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  background-color: #111111;
+  color: rgb(118, 118, 118);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact form .input-group textarea:hover {
+  background-color: rgba(128, 128, 128, 0.463);
+}
+.contact form input[type=submit] {
+  padding: 14px 40px;
+  border: 1px solid #f6483b;
+  background-color: #f6483b;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact form input[type=submit]:hover {
+  background-color: #111111;
+  color: #f6483b;
+}
+.contact .contactDiv1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/contactimg1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/contactimg1.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  color: white;
+  padding: 60px;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+.contact .contactDiv1 p {
+  color: rgb(141, 141, 141);
+  margin: 1px;
+}
+.contact .contactDiv1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/contactimg1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/contactimg1.jpg);
+}
+.contact .contactDiv2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/contactimg2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/contactimg2.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  color: white;
+  padding: 60px;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+.contact .contactDiv2 a {
+  color: rgb(141, 141, 141);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact .contactDiv2 a:hover {
+  color: #f6483b;
+}
+.contact .contactDiv2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/contactimg2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/contactimg2.jpg);
+}
+.contact .contactDiv3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/contactimg3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/contactimg3.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  color: white;
+  padding: 60px;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+.contact .contactDiv3 p {
+  color: rgb(141, 141, 141);
+  margin: 1px;
+}
+.contact .contactDiv3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/contactimg3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/contactimg3.jpg);
+}
+
+.portfolio {
+  background-color: black;
+  padding: 80px;
+}
+.portfolio h1 {
+  text-align: center;
+  color: white;
+}
+.portfolio .div4 {
+  position: relative;
+}
+.portfolio .div4 p {
+  text-align: center;
+  color: red;
+  position: relative;
+  top: 0;
+  left: 58px;
+}
+.portfolio .div4 .leftspan3 {
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  left: 42%;
+  top: 13px;
+  background-color: white;
+}
+.portfolio .imgDiv {
+  margin: 5px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: relative;
+}
+.portfolio .imgDiv img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+.portfolio .imgDiv .overlay {
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+.portfolio .imgDiv:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.portfolio .imgDiv:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
